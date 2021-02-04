@@ -15,3 +15,13 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+// import "hidden.js"
+import show1 from '../components/hidden';
+import { showHide } from '../components/hidden';
+
+document.addEventListener('click', () => {
+  //show1;
+  //hide();
+  showHide();
+});

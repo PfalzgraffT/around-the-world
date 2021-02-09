@@ -41,7 +41,7 @@ function hide() {
 export {hide};
 
 
-const showHide() {
+function showHide() {
   const button = document.querySelector('.diving');
   button.addEventListener('click', (event) => {
     console.log(event);

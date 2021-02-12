@@ -13,6 +13,27 @@
   transform: scale(1.1);
 }
 
+.dropdown-show {
+  grid-column: 12 / -1;
+  font-size: 100%;
+  width: 9em;
+  text-align: center;
+  padding-top: 0.5em;
+  border: 1px solid white;
+  transition: transform .2s;
+  h5 {
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+  }
+}
+.dropdown-show:hover {
+  transform: scale(1.1);
+}
 .text {
   display: flex;
   flex-direction: column;
@@ -185,7 +206,7 @@
     margin-left:-90px;
     left:50%;
     display:inline-block;
-   margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 .bubble{

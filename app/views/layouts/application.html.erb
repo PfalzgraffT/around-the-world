@@ -12,7 +12,7 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script>
       $(document).ready(function(){
-        $(".diving").click(function(){
+        $(".card-1").click(function(){
           $("#plongee").fadeToggle("8000");
           $("#beach").hide();
           $("#activity").hide();
@@ -20,7 +20,7 @@
         });
       });
       $(document).ready(function(){
-        $(".plage").click(function(){
+        $(".card-2").click(function(){
           $("#plongee").hide();
           $("#beach").fadeToggle("8000");
           $("#activity").hide();
@@ -28,7 +28,7 @@
         });
       });
       $(document).ready(function(){
-        $(".activite").click(function(){
+        $(".card-3").click(function(){
           $("#plongee").hide();
           $("#beach").hide();
           $("#activity").fadeToggle("8000");
@@ -36,7 +36,7 @@
         });
       });
       $(document).ready(function(){
-        $(".lunedemiel").click(function(){
+        $(".card-4").click(function(){
           $("#plongee").hide();
           $("#beach").hide();
           $("#activity").hide();
@@ -49,33 +49,6 @@
   <body>
     <%= yield %>
     <script>
-      var bArray = [];
-// Définition du nombre d'élément (entioté présente dans le tableau aisni que la taille de celles-ci (valeur numérique défini))
-    var sArray = [20,6,8,10,15,6,8,2,6,1,8,11,16,2,10,5,1,8,12,3,21,5,3,18,20];
-
-    for (var i = 0; i < $('.bubbles').width(); i++) {
-        bArray.push(i);
-    }
-
-    function randomValue(arr) {
-        return arr[Math.floor(Math.random() * arr.length)];
-    }
-
-    setInterval(function(){
-
-        var size = randomValue(sArray);
-        $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
-
-        $('.individual-bubble').animate({
-            'bottom': '100%',
-            'opacity' : '-=0.7'
-        }, 3000, function(){
-            $(this).remove()
-        }
-        );
-
-    }, 350);
-
   $(document).ready(function(){
     //Check if the current URL contains '# or hash'
     if(document.URL.indexOf("#")==-1){

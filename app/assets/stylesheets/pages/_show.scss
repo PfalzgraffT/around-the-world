@@ -206,7 +206,8 @@
         height: 20em;
         margin-top: 2vh;
         max-width: 95%;
-        width: 95%;
+        object-fit: contain;
+        border-radius: 2em;
       }
       h1 {
         text-align: center;

@@ -17,10 +17,10 @@ require("turbolinks").start()
 // const imagePath = (name) => images(name, true)
 
 // import "hidden.js"
-import { showHide } from '../plugins/hidden';
+//import { showHide } from '../plugins/hidden';
 
-document.addEventListener('click', () => {
+//document.addEventListener('click', () => {
   //show1;
   //hide();
-  showHide();
-});
+//  showHide();
+//});

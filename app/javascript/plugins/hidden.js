@@ -41,11 +41,11 @@
 //export {hide};
 
 
-function showHide() {
-  const button = document.querySelector('.diving');
-  button.addEventListener('click', (event) => {
-    console.log(event);
-    event.currentTarget.classList.toggle("#plongee");
-  });
-};
-export {showHide};
+//function showHide() {
+//  const button = document.querySelector('.diving');
+//  button.addEventListener('click', (event) => {
+//    console.log(event);
+//    event.currentTarget.classList.toggle("#plongee");
+//  });
+//};
+//export {showHide};

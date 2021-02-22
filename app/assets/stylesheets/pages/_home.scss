@@ -116,6 +116,11 @@ a:hover {
 }
 
 @media (min-width: 100px) and (max-width: 665px) {
+  .first-container {
+    .title {
+    font-size: 6vw;
+    }
+  }
   .container {
     .social {
       top: 47%;

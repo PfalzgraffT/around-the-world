@@ -89,7 +89,10 @@
     }
   }
 }
-
+#ancre {
+  margin-top: 2vh;
+  box-shadow: -1em 0 0 0 #84C0F8;
+}
 
 .to-discover {
   height: 6vh;
@@ -234,14 +237,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
 .border_bottom {
   border-bottom: 4px solid #84C0F8;
   z-index: auto;
@@ -250,12 +245,6 @@
   height: 95%;
   left: 25%;
 }
-
-
-
-
-
-
 
 #plongee {
   display: none;
@@ -293,6 +282,15 @@
       width: 10em;
     }
   }
+  .container {
+    .second-container {
+      .img-show {
+        height: 12em;
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
 }
 @media (min-width: 100px) and (max-width: 665px) {
   .container {
@@ -307,15 +305,46 @@
     }
   }
   .container {
-    .second-container {
-      .img-show {
-        height: 15em;
-        margin-bottom: 3em;
+    .first-container {
+      .show {
+        font-size: 2em;
       }
     }
   }
+  .container {
+    .second-container {
+      .img-show {
+        height: 12em;
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  #ancre {
+    margin-top: 5vh;
+    height: 44em;
+    box-shadow: -1em 0 0 0 #84C0F8;
+    .border_bottom {
+      height: 113%;
+    }
+  }
+  .to-discover {
+    margin-top: 6em;
+  }
   .third-container {
     width: 80%;
+  }
+  .plonge, .beac, .activit, .honeymoo {
+    .title-plongee {
+      font-size: 4vw;
+      height: 4em;
+      margin-top: -7em;
+    }
+    .text-right, .text-left {
+      h1 {
+        font-size: 2.2em;
+      }
+    }
   }
 }
 

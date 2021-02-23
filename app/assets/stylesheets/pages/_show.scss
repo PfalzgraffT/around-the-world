@@ -86,6 +86,7 @@
      border-radius: 1em;
      max-width: 90%;
      width: 90%;
+     object-fit: cover;
     }
   }
 }
@@ -147,6 +148,7 @@
     height: 15em;
     width: 10em;
     border-radius: 1em;
+    object-fit: cover;
   }
   .diving {
     position:absolute;
@@ -196,6 +198,7 @@
       justify-content: center;
       width: auto;
       height: 2em;
+      z-index: 0;
     }
     .text-right, .text-left {
       width: 100%;
@@ -209,7 +212,7 @@
         height: 20em;
         margin-top: 2vh;
         max-width: 95%;
-        object-fit: contain;
+        object-fit: cover;
         border-radius: 2em;
       }
       h1 {

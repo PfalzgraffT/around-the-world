@@ -36,10 +36,10 @@ a:hover {
     }
   }
   .dropdown-items {
-    color: black;
+    color: white;
     width: 9em;
     position: absolute;
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
     padding-top: 0.5em;
     transition: transform .2s;
@@ -75,7 +75,7 @@ a:hover {
       font-size: 1em;
       text-transform: uppercase;
       font-weight: bold;
-      color: black;
+      color: white;
       background-color: transparent;
     }
     a {

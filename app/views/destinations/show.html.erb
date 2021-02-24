@@ -7,7 +7,7 @@
   <div class="first-container">
     <div class="border1-bottom"></div>
     <div class="title show"><%= @destination.name %><h4>Asie du sud</h4>
-      <button onClick="window.location.reload()" class="btn"><%= link_to "A propos", "#ancre" %></button>
+      <button class="btn"><%= link_to "A propos", "#ancre", class:"btn-propos" %></button>
     </div>
     <div class="border2-bottom"></div>
   </div>
@@ -58,7 +58,9 @@
 
 
 <div id= "plongee" class="container plonge">
+
   <div class="title-plongee">
+    <%= image_tag "tache.png", class: "tache"%>
     <%= image_tag "turtle.jpg", style: "object-fit: cover; height: -webkit-fill-available; position: absolute; z-index: -1; width: 100%; border-radius: 1em;" %>Plongée
   </div>
   <div class="text-right">
@@ -77,6 +79,7 @@
 
 <div id= "beach" class="container beac">
   <div class="title-plongee">
+    <%= image_tag "tache.png", class: "tache"%>
     <%= image_tag "plage.jpg", style: "object-fit: cover; height: -webkit-fill-available; position: absolute; z-index: -1; width: 100%; border-radius: 1em;" %>Plage
   </div>
   <div class="text-left">
@@ -95,6 +98,7 @@
 
 <div id= "activity" class="container activit">
   <div class="title-plongee">
+    <%= image_tag "tache.png", class: "tache"%>
     <%= image_tag "activity.jpg", style: "object-fit: cover; height: -webkit-fill-available; position: absolute; z-index: -1; width: 100%; border-radius: 1em;" %>Activités
   </div>
   <div class="text-right acti">
@@ -113,6 +117,7 @@
 
 <div id= "honeymoon" class="container honeymoo">
   <div class="title-plongee">
+    <%= image_tag "tache.png", class: "tache"%>
     <%= image_tag "lunedemiel.jpg", style: "object-fit: cover; height: -webkit-fill-available; position: absolute; z-index: -1; width: 100%; border-radius: 1em;" %>Lune de Miel
   </div>
   <div class="text-left honey">

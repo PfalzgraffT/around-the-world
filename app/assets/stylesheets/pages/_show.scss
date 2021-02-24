@@ -6,6 +6,7 @@
   align-self: flex-start;
   height: 50vh;
   visibility: hidden;
+  object-fit: cover;
 }
 
 .container {
@@ -53,6 +54,11 @@
           background-color:#333333;
           transform: scale(1.1);
         }
+      }
+      .btn-propos {
+        z-index: 1;
+        font-size: 3vw;
+        display: block;
       }
     }
   }
@@ -199,6 +205,11 @@
       width: auto;
       height: 2em;
       z-index: 0;
+      .tache {
+        visibility: visible;
+        margin-top: -36vh;
+        object-fit: cover;
+      }
     }
     .text-right, .text-left {
       width: 100%;
